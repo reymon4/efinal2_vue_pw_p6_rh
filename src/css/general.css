@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(143, 113, 232);
+  padding: 10px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 1vh;
+  font-size: 2.5vmin;
+}
+.navbar a:hover {
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form {
+  margin-top: 2%;
+  width: 20%;
+  padding: 1.5%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 7% 0%;
+  font-weight: bold;
+  font-size: 2vmin;
+}
+.form-group label {
+  margin-bottom: 0.5rem;
+}
+.form-group input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 1.8vmin;
+}
+button {
+  margin-top: 2%;
+  border-radius: 6px;
+  font-size: 2.3vmin;
+  color: white;
+  border-color: rgb(143, 113, 232);
+  background-color: rgb(143, 113, 232);
+}
+button:hover {
+  background-color: rgb(172, 150, 236);
+  border-color:  rgb(172, 150, 236);
+  cursor: pointer;
+}
+.table{
+  margin-top: 3%;
+  display: grid;
+  width: 100%;
+  border-collapse: collapse;
+  justify-content: center;
+}
+.table .search{
+  margin: 2% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  border: 1.5px solid rgb(143, 113, 232);
+  padding: 8px;
+  text-align: center;
+  font-size: 2.5vmin;
+  border-radius: 8px;
+}
+th {
+  background-color: rgb(107, 73, 210);
+  padding: 8px;
+  font-size: 2.5vmin;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  margin:2% 0%;
+}
